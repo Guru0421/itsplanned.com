@@ -1,0 +1,6 @@
+{include(file='headerloggedin.tpl')}
+<div class="login">
+User is logged in
+</div>
+</div>
+{include(file='footer.tpl')}

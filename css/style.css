@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    background-color: #e3e5ec;
+    font-family:"Lucida Grande",Verdana,Helvetica,Arial,sans-serif;
+}
+
+.header {
+}
+
+.header .logo {
+    float: left;
+    margin-left: 10px;
+}
+
+.logo img {
+    border: 0px;
+}
+
+.main {
+    margin:0 auto;
+    width:960px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.maincenter {
+    margin:0 auto;
+    width:980px;
+    background-color: #FFFFFF;
+    height: 60px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-top: 10px;
+}
+
+.content {
+    float: left;
+    width: 728px;
+    border: 1px solid #505D82; 
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.rightside {
+    float: left;
+    width: 200px;
+    padding-top: 25px;
+}
+
+.download {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#ffb73a; 
+    font-size: 12px;
+    border: 1px solid #bf841c;
+}
+
+.donate {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #bf841c;
+    margin-top: 25px;
+}
+.feedback {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #bf841c;
+    margin-top: 25px;
+}
+
+.ui-treeList-toggle {
+    height: 10px;
+    width: 10px;
+    float: left;
+}
+
+.ui-icon-plus {
+    background-color: green;
+}
+.ui-icon-minus {
+    background-color: red;
+}
+
+.tasklist {
+    display: none;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    margin-right: 5px;
+}
+
+.ui-treeList, .ui-treeList-item {
+    list-style-type:none;
+}
+
+.drag {
+    float: right;
+}
+.ui-state-highlight {
+    background-color: yellow;
+    height: 20px;
+    background-color:#bee29a;
+    border-bottom:1px solid #000000;
+    padding:2px 10px 10px;
+ }
+
+li {
+    margin-bottom: 10px;
+}
+
+.cleft, .cright {
+    float: left;
+}
+
+.cleft {
+    width: 400px;
+}
+
+.noborder {
+    border: 0px;
+}
+
+.screen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.bot {
+    margin: 20px;
+    border-top: 1px solid;
+}
+
+.screenshots{
+    margin-top: 30px;
+}
+
+.openclose {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    display: block;
+    float: left;
+}
+
+.leftmargin {
+#    margin-left: 25px;
+}
+
+.subtask {
+    float: left;
+    width: 830px;
+}
+
+
+.liid_newtask {
+    display: none;
+}
+
+.menu {
+    float: right;
+}
+
+.taskframe {
+    border-bottom: 1px solid #000;
+    background-color: #eee;
+    padding: 2px 10px 1px 10px;
+}
+
+.zebraeven {
+    background-color: #ccc;
+}
+
+.menu .menu1 {
+    display: inline;
+}
+
+.taskdraghandle {
+    float: left;
+    cursor: move;
+    margin-bottom:-5px;
+}
+
+.tasktitle {
+    width: 700px;
+}
+
+.tasktitle a:link, .tasktitle a:visited, .tasktitle a:hover, .tasktitle a:active {
+   font-size: 13px;
+   font-weight: bold;
+ #  color: #fff;
+}
+
+.whitelink {
+    color: #777 !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.newtask {
+    cursor: pointer;
+    background-color: #4A7380;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+    float:left;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.newtask a, .newtask a:visited, .newtask a:hover {
+#    background-color: #C0C0C0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a, a:visited, a:hover {
+#    background-color: #C0C0C0;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.activewrapper {
+    background-color: #e3e3e3;
+#    -moz-border-radius: 4px;
+#    border: 1px solid;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 0px 10px 0 10px;
+}
+
+.taskedit, .toggleallfields, .togglefields {
+    font-size: 10px;
+    cursor: pointer;
+}   
+
+.taskstatus {
+    font-size: 10px;
+    margin-top: 2px;
+    color: #444;
+}
+
+.tasktitleNOTINUSE {
+    width: 500px;
+}
+
+.taskdescriptionNOTINUSE {
+    width: 920px;
+}
+
+fieldset {
+    border: none;
+}
+
+.closed {
+    opacity: 0.4;
+}
+
+.closed .tasktitle1 {
+    text-decoration: line-through;
+}
+
+.taskdescription li {
+    border: 0px;
+}
+
+.login {
+    padding-top: 40px;
+    float: right;
+    padding-right: 10px;
+}
+
+.t1 {
+    padding-top: 0px !important;
+}
+
+.t2 a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.loginfield {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration:underline;
+}
+.linkimp {
+    text-decoration:underline !important;
+}
+
+.tt {
+    float: left;
+    width: 920px;
+}
+
+.menuline {
+    width: 980px;
+    background-color: red;    
+    margin: 0 auto;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: #505d82;
+    height: 25px;
+}
+
+.menuline .menu1 {
+    padding: 5px;
+    float: left;
+#    background-color: #bbb;
+    margin-right: 10px;
+    color: #FFF;
+}
+
+.menu1 a {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.strike {
+    text-decoration: line-through !important;
+}
+
+.nolink {
+    text-decoration: none;
+    cursor: default;
+    font-weight: normal;
+}
+
+.movehere {
+    background-color: yellow;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #CCC;
+    margin-bottom: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.tasklistoption {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.tasklistoption .options {
+    position: absolute;
+    background-color: #FFF;
+    border: 1px solid;
+    padding: 5px;
+    display: none;
+    float: right;
+}
+
+.copy {
+    margin: 0 auto;
+    width: 980px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.emailedok {
+    font-weight: bold;
+    color: green;
+}
+
+.loginerror {
+    float: left;
+    margin-top: 37px;
+    color: red;
+    font-size: 12px;
+    margin-left: 190px;
+}
+
+.error {
+    margin-left: 15px;
+    color: #FF0000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul {
+    font-size: 12px;
+}

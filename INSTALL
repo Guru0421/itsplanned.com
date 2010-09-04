@@ -1,0 +1,31 @@
+Requierement:
+--------------------------------------------------------------------------------
+- A working webserver with basic PHP features.
+- A MySQL database
+
+
+Installation
+--------------------------------------------------------------------------------
+
+
+1.  Place files in a folder where it is accessible from a browser.
+
+2.  Make sure that the webserver has read and write access to the folder.
+2a. The webserver must have rights to write a config.php file in the main folder
+2b. The webserver must have rights to write files in the dwoo/compiled folder.
+2c. The webserver must have rights to write files in the dwoo/cache folder.
+
+3.  Point your browser to the path where the files are placed.
+
+4.  The installation wizard will take care of the rest. Just fill in the MySQL
+    access etc.
+
+5.  Create a new user from the "Create new user" menu.
+
+6.  Everything should be ready now.
+
+
+Found a bug?
+--------------------------------------------------------------------------------
+
+If you found a bug or something else - email: bugs@itsplanned.com
